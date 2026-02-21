@@ -1,0 +1,30 @@
+/* Pura container center karne ke liye */
+.main-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+/* Card ko thoda sundar banane ke liye */
+.custom-card {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  border: none !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+.form-label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.btn-primary {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+}
